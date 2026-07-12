@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1vqLxPhf9jspIo3815IRcXUHy8GTR78_8
 """
 
-!pip install -q streamlit pyngrok google-generativeai
+
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
+
 # import streamlit as st
 # import google.generativeai as genai
 # # Configure Gemini API
@@ -44,7 +44,7 @@ Original file is located at
 # st.write(response.text)
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
+
 # import streamlit as st
 # import google.generativeai as genai
 # 
@@ -82,12 +82,12 @@ Original file is located at
 #         response = model.generate_content(prompt)
 #         st.write(response.text)
 
-!nohup streamlit run app.py --server.port 8501 &
+
 
 import time
 time.sleep(10)
 
-!cat nohup.out
+
 
 from pyngrok import ngrok
 ngrok.set_auth_token("3GPPjnIRuSVzjcpzGr2y9AbBUYw_3dGbNZzMraTuULACB5eJR")
