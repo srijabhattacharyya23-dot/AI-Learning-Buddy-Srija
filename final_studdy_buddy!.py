@@ -84,17 +84,9 @@ Original file is located at
 
 
 
-import time
-time.sleep(10)
 
 
 
-from pyngrok import ngrok
-ngrok.set_auth_token("3GPPjnIRuSVzjcpzGr2y9AbBUYw_3dGbNZzMraTuULACB5eJR")
-public_url = ngrok.connect(8501)
-print(public_url)
-
-!fuser -k 8501/tcp
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -135,25 +127,17 @@ print(public_url)
 #         response = model.generate_content(prompt)
 #         st.write(response.text)
 
-!nohup streamlit run app.py --server.port 8501 &
 
-import time
-time.sleep(10) # Give Streamlit time to start
 
-from pyngrok import ngrok
-public_url = ngrok.connect(8501)
+ # Give Streamlit time to start
+
+
+public_url =
 print(public_url)
 
-!nohup streamlit run app.py --server.port 8501 &
 
-import time
-time.sleep(10)
 
-!cat nohup.out
 
-!pip install -q pyngrok
 
-from pyngrok import ngrok
-ngrok.set_auth_token("3GPPjnIRuSVzjcpzGr2y9AbBUYw_3dGbNZzMraTuULACB5eJR")
 public_url = ngrok.connect(8501)
 print(public_url)
