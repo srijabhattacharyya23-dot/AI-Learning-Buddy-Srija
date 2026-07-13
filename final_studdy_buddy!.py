@@ -132,8 +132,6 @@ Original file is located at
  # Give Streamlit time to start
 
 
-public_url =
-print(public_url)
 
 
 
