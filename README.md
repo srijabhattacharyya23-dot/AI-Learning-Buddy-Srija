@@ -222,15 +222,15 @@ AI-Learning-Buddy-Srija
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .env
+├── .gitignore
+├── .env.example
 │
-├── assets/
-│   ├── banner.png
-│   ├── screenshots/
-│   └── architecture.png
+├── notebooks/
+│   └── AI_Learning_Buddy.ipynb
 │
-└── notebooks/
-    └── AI_Learning_Buddy.ipynb
+└── assets/
+    ├── banner.png
+    └── screenshots/
 ```
 
 ---
