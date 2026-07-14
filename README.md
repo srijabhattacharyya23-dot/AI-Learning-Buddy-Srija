@@ -54,7 +54,7 @@ The project can be executed using:
 
 | Quiz | Ask Anything |
 |------|--------------|
-<img width="695" height="784" alt="Image" src="https://github.com/user-attachments/assets/f2425bf0-c759-4cc3-b3ef-3014aa8a145a" />
+<img width="741" height="826" alt="Image" src="https://github.com/user-attachments/assets/1ff8152d-b2b8-4520-ad73-c924c7a0a9d8" />
 
 <img width="655" height="769" alt="Image" src="https://github.com/user-attachments/assets/86d4c9e8-df72-41f2-8099-45a7737f5b16" />
 </p>
