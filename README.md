@@ -1,11 +1,9 @@
-# 🎓 AI Learning Buddy Srija
 
 <div align="center">
 
-### 🤖 *An Interactive AI-Powered Learning Assistant for Students*
+### 🤖 *An Interactive AI-Powered Stock Market Investing Tutor for Beginners*
 
-Built using **Python**, **Streamlit**, **Gemini API**, and **Ngrok** to provide an intelligent educational experience through a clean and responsive web interface.
-
+Built using **Python**, **Streamlit**, **Google Gemini API**, **Google Colab**, **ngrok**, and **GitHub** to provide an intelligent learning experience through a clean and responsive web interface.
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge\&logo=python)
@@ -20,15 +18,17 @@ Built using **Python**, **Streamlit**, **Gemini API**, and **Ngrok** to provide 
 
 # 📖 Overview
 
-**AI Learning Buddy Srija** is an AI-powered educational assistant designed to help students learn interactively through natural language conversations.
+**AI Learning Buddy Srija** is an AI-powered educational assistant designed to make **Stock Market Investing** easy to understand for beginners.
 
-The application is built using **Streamlit** as the frontend interface while a dedicated backend workspace (**Srija AI**) manages prompt engineering, educational guardrails, and AI response generation.
+The application explains investing concepts in simple language, provides real-life examples, generates quizzes, and answers students' questions interactively.
 
-The project can be executed either:
+Built using **Streamlit** and powered by the **Google Gemini API**, the application uses carefully designed prompts to produce beginner-friendly, engaging, and educational responses.
 
-* 💻 Locally using Streamlit
-* ☁️ Through Google Colab
-* 🌍 Publicly via a secure Ngrok Tunnel
+The project can be executed using:
+
+- 💻 Streamlit (Local)
+- ☁️ Google Colab
+- 🌍 Secure ngrok Tunnel
 
 ---
 
@@ -70,8 +70,9 @@ To maintain a clean separation between the presentation layer and backend logic,
 
 | Layer       | Name                        | Purpose                                                |
 | ----------- | --------------------------- | ------------------------------------------------------ |
-| 🎨 Frontend | **AI Learning Buddy Srija** | Student-facing Streamlit application                   |
-| ⚙ Backend   | **Srija AI**                | Core AI workspace, prompt engineering and system logic |
+| 🎨 Frontend | **AI Learning Buddy Srija** | Interactive Streamlit application for learners |
+| ⚙ AI Engine | **Google Gemini API**         | Generates educational responses |
+| 🧠 Prompt Layer | **Custom Prompt Engineering** | Ensures beginner-friendly and structured explanations |
 
 ---
 
@@ -216,7 +217,6 @@ Streamlit --> Gemini
 
 # 📂 Project Structure
 
-```text
 AI-Learning-Buddy-Srija
 │
 ├── app.py
@@ -226,8 +226,8 @@ AI-Learning-Buddy-Srija
 │
 ├── assets/
 │   ├── banner.png
-│   ├── architecture.png
-│   └── workflow.png
+│   ├── screenshots/
+│   └── architecture.png
 │
 └── notebooks/
     └── AI_Learning_Buddy.ipynb
@@ -237,14 +237,30 @@ AI-Learning-Buddy-Srija
 
 # ✨ Key Features
 
-* 🎓 Interactive AI-powered educational assistant
-* 🤖 Customized prompt engineering for student learning
-* ⚡ Real-time AI-generated responses
-* 🌐 Secure public deployment using Ngrok
-* 🖥 Clean and responsive Streamlit interface
-* 🔐 Secure API key management using `.env`
-* ☁️ Google Colab compatible
-* 💻 Local execution support
+- 📈 Beginner-friendly Stock Market Investing tutor
+- 🤖 AI-powered explanations using Google Gemini
+- 🌍 Real-life examples and easy-to-understand analogies
+- 📝 Automatic MCQ quiz generation
+- 💬 Ask Anything mode for personalized learning
+- ⚡ Real-time AI responses
+- 🌐 Secure deployment using ngrok
+- 🔐 Secure API key management
+- ☁️ Google Colab compatible
+- 💻 Local execution support
+- 📱 Clean and responsive Streamlit interface
+
+---
+
+# 📚 Learning Modes
+
+Students can choose from four different learning modes.
+
+| Mode | Description |
+|------|-------------|
+| 📖 Explain Concept | Explains stock market concepts in beginner-friendly language |
+| 🌍 Real-Life Example | Connects concepts with practical everyday examples |
+| 📝 Generate Quiz | Creates multiple-choice quizzes with answers |
+| 💬 Ask Anything | Allows students to ask any investing-related question |
 
 ---
 
@@ -252,12 +268,13 @@ AI-Learning-Buddy-Srija
 
 | Technology    | Purpose                      |
 | ------------- | ---------------------------- |
-| Python        | Application Development      |
-| Streamlit     | Frontend Web Interface       |
-| Gemini API    | AI Response Generation       |
-| Python Dotenv | Secure Environment Variables |
-| Ngrok         | Public Tunnel                |
-| Google Colab  | Cloud Development            |
+| Python         | Core application development |
+| Streamlit      | Interactive web interface |
+| Google Gemini API | AI response generation |
+| Google Colab | Cloud development |
+| ngrok | Public deployment |
+| python-dotenv | Secure environment variables |
+| GitHub | Version control |
 
 ---
 
@@ -284,8 +301,8 @@ AI-Learning-Buddy-Srija
 
 Create a `.env` file
 
-```env
-API_KEY=YOUR_API_KEY
+```GEMINI_API_KEY=YOUR_API_KEY
+NGROK_AUTH_TOKEN=YOUR_NGROK_TOKEN
 ```
 
 ---
@@ -295,7 +312,7 @@ API_KEY=YOUR_API_KEY
 Install dependencies
 
 ```bash
-pip install streamlit python-dotenv pyngrok
+pip install -r requirements.txt
 ```
 
 ---
@@ -373,45 +390,49 @@ Student Interface
 
 ---
 
-# 👩‍💻 Project Submission
+# 👩‍💻 Project Information
 
-| Item           | Details                     |
+| Field          | Details                     |
 | -------------- | --------------------------- |
-| Student Name   | **Srija Bhattacharya**      |
-| Program        | **AI Empower(H)er Program** |
-| Application    | **AI Learning Buddy Srija** |
-| Backend Engine | **Srija AI**                |
-
+| Developer | **Srija Bhattacharya** |
+| Project | **AI Learning Buddy Srija** |
+| Domain | **Stock Market Investing** |
+| AI Model | **Google Gemini 2.5 Flash** |
+| Program | **AI EMPOWER(H)ER Program** |
 ---
 
 # 💡 Future Enhancements
 
-* 📄 PDF generation
-* 🎤 Voice-based interaction
-* 🌐 Multi-language support
-* 📊 Learning progress analytics
-* 📝 Personalized quizzes
-* 📚 Learning history
-* 🎓 Adaptive learning recommendations
+- 📊 Interactive stock charts
+- 🎤 Voice-enabled tutoring
+- 🌍 Multi-language support
+- 📝 Adaptive quizzes based on learner performance
+- 📈 Personalized learning roadmap
+- 📄 Export notes and quizzes as PDF
+- 🏆 Student progress dashboard
 
 ---
 
 # ❤️ Acknowledgements
 
-Special thanks to:
+This project was developed as part of the **AI EMPOWER(H)ER Program**.
 
-* 💙 **Skillsoft**
-* 💙 **Infosys Springboard**
-* 💙 **AI Empower(H)er Program**
-* 💙 **Dr. Pallavi Khanna**
+A heartfelt thank you to:
 
-for providing an incredible opportunity to explore Generative AI and build meaningful AI-powered educational solutions.
+- 💙 Dr. Pallavi Khanna
+- 💙 Infosys Springboard
+- 💙 Skillsoft
+
+for creating an inspiring platform where learners from all backgrounds can explore Generative AI, build real-world projects, and grow through hands-on learning.
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project interesting, don't forget to star the repository!
+## ⭐ Support
+
+If you found this project useful or interesting, consider giving it a ⭐ on GitHub!
+
 
 **Made with ❤️ by Srija Bhattacharya**
 
