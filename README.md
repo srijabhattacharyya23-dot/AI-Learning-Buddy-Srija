@@ -1,7 +1,7 @@
 
 <div align="center">
 
-### 🤖 *An Interactive AI-Powered Stock Market Investing Tutor for Beginners*
+###  *An Interactive AI-Powered Stock Market Investing Tutor for Beginners* 🤖
 
 Built using **Python**, **Streamlit**, **Google Gemini API**, **Google Colab**, **ngrok**, and **GitHub** to provide an intelligent learning experience through a clean and responsive web interface.
 <br>
@@ -16,7 +16,7 @@ Built using **Python**, **Streamlit**, **Google Gemini API**, **Google Colab**, 
 
 ---
 
-# 📖 Overview
+##  Overview 📖
 
 **AI Learning Buddy Srija** is an AI-powered educational assistant designed to make **Stock Market Investing** easy to understand for beginners.
 
@@ -32,7 +32,7 @@ The project can be executed using:
 
 ---
 
-# 🏗️ System Architecture
+## System Architecture 🏗️
 
 ```mermaid
 flowchart LR
@@ -64,7 +64,7 @@ Frontend --> Student
 
 ---
 
-# 🏷️ Naming Architecture
+##  Naming Architecture 🏷️
 
 To maintain a clean separation between the presentation layer and backend logic, two different system names are intentionally used.
 
@@ -76,7 +76,7 @@ To maintain a clean separation between the presentation layer and backend logic,
 
 ---
 
-# 🔄 Complete Application Workflow
+##  Complete Application Workflow 🔄
 
 ```mermaid
 flowchart TD
@@ -117,7 +117,7 @@ J --> K
 
 ---
 
-# ⚡ Request Lifecycle
+##  Request Lifecycle ⚡
 
 ```mermaid
 sequenceDiagram
@@ -147,7 +147,7 @@ Streamlit-->>Student: Display Answer
 
 ---
 
-# 🧩 Component Architecture
+##  Component Architecture 🧩
 
 ```mermaid
 graph TD
@@ -186,7 +186,7 @@ D --> B
 
 ---
 
-# ☁️ Deployment Architecture
+##  Deployment Architecture ☁️
 
 ```mermaid
 flowchart LR
@@ -215,7 +215,7 @@ Streamlit --> Gemini
 
 ---
 
-# 📂 Project Structure
+##  Project Structure 📂
 
 AI-Learning-Buddy-Srija
 │
@@ -235,7 +235,7 @@ AI-Learning-Buddy-Srija
 
 ---
 
-# ✨ Key Features
+##  Key Features ✨
 
 - 📈 Beginner-friendly Stock Market Investing tutor
 - 🤖 AI-powered explanations using Google Gemini
@@ -251,7 +251,7 @@ AI-Learning-Buddy-Srija
 
 ---
 
-# 📚 Learning Modes
+##  Learning Modes 📚
 
 Students can choose from four different learning modes.
 
@@ -264,7 +264,7 @@ Students can choose from four different learning modes.
 
 ---
 
-# 🛠️ Technology Stack
+##  Technology Stack 🛠️
 
 | Technology    | Purpose                      |
 | ------------- | ---------------------------- |
@@ -278,9 +278,9 @@ Students can choose from four different learning modes.
 
 ---
 
-# 🚀 Running the Project
+##  Running the Project  🚀
 
-## ☁️ Option 1 — Google Colab (Recommended)
+##  Option 1 — Google Colab (Recommended) ☁️
 
 1. Open the provided notebook in Google Colab.
 2. Add your Gemini API Key.
@@ -295,7 +295,7 @@ Students can choose from four different learning modes.
 
 ---
 
-## 💻 Option 2 — Run Locally
+###  Option 2 — Run Locally 💻
 
 ### Step 1
 
@@ -327,7 +327,7 @@ streamlit run app.py
 
 ---
 
-# 📌 Execution Pipeline
+##  Execution Pipeline 📌
 
 ```mermaid
 flowchart LR
@@ -353,7 +353,7 @@ Response --> Display
 
 ---
 
-# 📊 System Flow Summary
+##  System Flow Summary 📊
 
 ```text
 Student
@@ -390,7 +390,7 @@ Student Interface
 
 ---
 
-# 👩‍💻 Project Information
+##  Project Information 👩‍💻
 
 | Field          | Details                     |
 | -------------- | --------------------------- |
@@ -401,7 +401,7 @@ Student Interface
 | Program | **AI EMPOWER(H)ER Program** |
 ---
 
-# 💡 Future Enhancements
+##  Future Enhancements 💡
 
 - 📊 Interactive stock charts
 - 🎤 Voice-enabled tutoring
@@ -413,7 +413,7 @@ Student Interface
 
 ---
 
-# ❤️ Acknowledgements
+#  Acknowledgements ❤️
 
 This project was developed as part of the **AI EMPOWER(H)ER Program**.
 
@@ -429,7 +429,7 @@ for creating an inspiring platform where learners from all backgrounds can explo
 
 <div align="center">
 
-## ⭐ Support
+##  Support ⭐
 
 If you found this project useful or interesting, consider giving it a ⭐ on GitHub!
 
